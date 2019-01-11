@@ -1,0 +1,1222 @@
+<!--
+
+THIS FILE HAS ABOUT 3,300 WORDS TO TRANSLATE
+
+TRANSLATION NOTES:
+
+When translating this thing, only edit the stuff that's BETWEEN the <tags>, like so:
+
+    <p id="still_english">hello</p>
+    =>
+    <p id="still_english">bonjour</p>
+
+Also, DON'T change anything between the [square brackets], like so:
+
+    Number #[N]
+    =>
+    Numero #[N]
+
+Exception to the "don't change tags" rule:
+Feel free to move around the italics & bold tags, so that the emphasis
+on the right phrases/words still makes sense!
+
+    <i>italics</i>
+    <b>bold</b>
+
+Also, some HTML weirdness you might want to know:
+
+    &amp; is an ampersand "&" sign
+    &#8226; is a dot
+    &rarr; is a rightward-facing arrow
+    &lt; is a "<" sign
+
+ALSO! I'd love for you to credit yourself as a translator!
+You can add your own name in the <p id="subtitle"> section
+
+Thanks again!
+~ Nicky Case
+
+-->
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - META STUFF - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="meta_title">
+Evolucija Zaupanja
+</p>
+<p id="meta_desc">
+interaktivni vodič igralne teorije, ki razloži, kako si med sabo zaupamo
+</p>
+<p id="meta_loading">
+nalagange...
+</p>
+<p id="meta_on">
+VKLOPLJENO
+</p>
+<p id="meta_off">
+IZKLOPLJENO
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - TITLE! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="title">
+<span style="font-size:0.75em">EVOLUCIJA</span><br>
+
+<span style="font-size:0.75em">ZAUPANJA</span>
+</p>
+<p id="subtitle">
+
+trajanje: 30 min &#8226; avtor: nicky case, julij 2017
+
+<!-- TRANSLATION NOTE: UNCOMMENT THE FOLLOWING & ADD YOUR OWN NAME! -->
+
+<br>
+Prevedel Matej S. (Matejko124)
+&#8226;
+<a href="http://ncase.me/trust/">Angleška verzija</a>
+
+
+</p>
+
+<p id="loading">
+nalaganje
+</p>
+<p id="loading_done">
+ZAČNI &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - INTRO! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="intro">
+Med Prvo Svetovno Vojno se je mir naenkrat ustvaril.
+<br><br>
+
+Bil je Božič leta 1914 na Zahodni Fronti.<br>
+Čeprav vojaki <i>niso</i> smeli komunicirati s sovražnikom, so Britanski<br>
+in Nemški vojaki izstopili iz svojih jarkov, prehodili Nikogaršnjo Zemljo,<br>
+ter se zbrali, da lahko pokopajo svoje vojake, izmenjajo darila in igrali igre. 
+<br><br> 
+Zdaj je leto 2019, Zahod je že več desetletij v času miru, in
+wow, mi smo <i>grozni</i> glede zaupanja. Raziskave kažejo, da v zadnjih 40 letih
+ljudje pravijo, da si med seboj manj in manj zaupamo. Tukaj je naša uganka:
+<br><br>
+<b>Zakaj, tudi v času miru, nastanejo sovražniki iz prijateljev?<br>
+In zakaj, tudi v času vojne, nastanejo prijatelji iz sovražnikov?</b>
+<br><br>
+Mislim, da <b>igralna teorija</b> lahko pomaga razložiti našo epidemijo nezaupanja
+in kako bi jo lahko odpravili! Zdaj, da pa lahko to vse razumemo...
+</p>
+<p id="intro_button">
+...zaigrajmo eno igro. &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ONE OFF! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_you_cooperate">
+vi<br>sodelujete
+</p>
+
+<p id="label_you_cheat">
+vi<br>goljufate
+</p>
+
+<p id="label_they_cooperate">
+oni<br>sodelujejo
+</p>
+
+<p id="label_they_cheat">
+oni<br>goljufajo
+</p>
+
+<p id="label_you">
+vi<br>↙
+</p>
+<p id="label_them">
+drugi igralec<br>↘
+</p>
+
+<p id="oneoff_0_top">
+
+<b>IGRA ZAUPANJA</b>
+<br>
+Imate eno izbiro.
+Pred vami je naprava. Če potisnete kovanec v napravo,
+dobi <i>drugi igralec</i> tri kovance - in obratno.
+Oba lahko izbereta, da SODELUJETA (dodata kovanec), ali GOLJUFATA (ne dodata kovanca).
+</p>
+
+<p id="oneoff_0_btm">
+<b>Recimo, da drugi igralec goljufa, in ne doda kovanca. </b><br>
+Kaj bi vi storili?
+</p>
+
+<p id="oneoff_1_cheated">
+Točno tako! Zakaj bi pustili goljufu, da bi vas izkoriščal?
+</p>
+
+<p id="oneoff_1_cooperated">
+Na žalost vam prijaznost ne pomaga in ne dobite ničesar!
+</p>
+
+<p id="oneoff_1_top">
+Če sodelujete &amp; oni goljufajo, vi izgubite kovanec in oni pridobijo tri. (rezultat: -1 proti +3)
+Ampak, če oba goljufata, nobena od vaju pridobita ali izgubita kovancev. (rezultat: 0 proti 0)
+<b>Od tega se sklepa, da morate GOLJUFATI.</b>
+</p>
+
+<p id="oneoff_1_btm">
+<b>Ampak recimo, da drugi igralec sodeluje in doda kovanec.</b><br>
+Kaj pa bi zdaj storili?
+</p>
+
+<p id="oneoff_2_cheated">
+Wow, to pa je nesramno... In ob istem času pravilni odgovor!
+</p>
+
+<p id="oneoff_2_cooperated">
+To se zdi kot prava izbira...<b>ALI NE?</b>
+</p>
+
+<p id="oneoff_2_top">
+Zato, ker če oba sodelujeta, oba porabita en kovanec, da dobita tri. (rezultat: +2 proti +2)
+Ampak če vi goljufate &amp; oni sodelujejo, vi dobite tri kovance iz izgube njihovega enega.
+<b>Od tega je razvidno, da bi še vseeno "morali" GOLJUFATI.</b>
+</p>
+
+<p id="oneoff_2_btm">
+In <i>to</i> je naša dilema.
+Zaupanje je dobra stvar, ampak dopušča nekomu, da vas izkoristi -- ali da vas ustreli, ko stopite iz jarka neoboroženi.
+Včasih <i>je</i> nezaupanje racionalno!
+Ampak zdaj, kaj se zgodi, če zaigramo to igro...
+</p>
+
+<p id="oneoff_button_next">
+...večkrat? &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ITERATED - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="iterated_intro_top">
+<b>Zdaj pa zaigrajmo zares.</b>
+Igrali boste proti petimi različnimi nasprotniki, kjer ima vsak svojo "strategijo".
+S vsakim nasprotnikom boste zaigrali vsaj 3 do največ 7 krogov.
+(Ne boste vedeli vnaprej, kdaj bo zadnji krog)
+Ali jim lahko zaupate? Ali ravno obratno... ali lahko zaupajo <i>vam?</i>
+</p>
+
+<p id="iterated_intro_btm">
+Izberite svoj prvo, <i>pravo</i> potezo. <b>Izberite pametno.</b>
+</p>
+
+<p id="iterated_info_1">
+nasprotnik: [X] od [Y]
+</p>
+</p>
+<p id="iterated_info_2">
+vaš skupen rezultat: 
+</p>
+
+<p id="iterated_score_start">
+In vaš skupen rezultat je...
+</p>
+<p id="iterated_score_1">
+ki je, wow, zares <i>impresivno</i> slab.
+</p>
+<p id="iterated_score_2">
+ki je, um, ne tako slab!
+</p>
+<p id="iterated_score_3">
+ki ni slab!
+</p>
+<p id="iterated_score_4">
+ki je precej dober!
+</p>
+<p id="iterated_score_5">
+ki je <i>perfekten!</i> Čestitamo, imate preveč časa na svojih rokah.
+</p>
+<p id="iterated_score_x">
+...nimam pojma, kako je vam to uspelo.
+</p>
+<p id="iterated_score_end">
+(najžnižji možen rezultat je 7 &amp; najvišji možen rezultat je 49)
+</p>
+
+<p id="who_were">
+No, kdo so bili tisti čudni ljudi, proti katerim ste ravnokar igrali nasproti?
+</p>
+
+<p id="character_tft">
+<b>IMITATOR:</b>
+Zdravo! Začnem s Sodelovanjem, in potem samo ponovim to, kar ste naredili prejšnji krog. Meow
+</p>
+
+<p id="character_all_d">
+<b>VEČEN GOLJUF:</b>
+<i>močni pojedo šibke</i>
+</p>
+
+<p id="character_all_c">
+<b>VEČEN SODELOVALEC:</b>
+Bodimo si najboljši prijatelji! &lt;3
+</p>
+
+<p id="character_grudge">
+<b>ZAMERLJIVEC:</b>
+Poslušaj, frajer. Jaz bom sodeloval in nadaljeval s sodelovanjem,
+ampak če boš mene goljufal, TE BOM NAZAJ GOLJUFAL TO KONCA SVETA.
+</p>
+
+<p id="character_prober">
+<b>DETEKTIV:</b>
+Sprva te bom analiziral. Jaz začnem tako: Sodelava, Goljufija, Sodelava, Sodelava.
+Če goljufate nazaj, bom počel isto kot <span class="tft">Imitator</span>.
+Če nikoli goljufate nazaj, bom počel isto kot <span class="all_d">Večen Goljuf</span>, da vas izkoristim.
+Osnovno, moj dragi Watson.
+</p>
+
+<p id="characters_teaser">
+Zdaj, kaj pa če bi te osebe igrale...
+</p>
+<p id="characters_button">
+...same proti sebi? &rarr;
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - TOURNAMENT! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="place_your_bets"> 
+Čas je za turnir!
+Vsaka oseba bo zdaj igrala proti vsaki drugi osebi:
+to je 10 parov in 10 krogov na turnir.
+<br><br>
+Kdo mislite, da bo dobil največji <i>skupen</i> rezultat?
+<b>Dobro premislite o tem... nato pa
+STAVITE:</b>
+</p>
+
+<p id="tournament_intro"> 
+Stavili ste na osebo [CHAR]!
+Gremo skozi kroge en po en, in poglejmo, kako se turnir odigra...
+</p>
+
+<p id="first_match">
+prvi krog &rarr;
+</p>
+
+<p id="next_match">
+naslednji krog &rarr;
+</p>
+
+<p id="match_header_1">
+<b>Krog #[N]:</b> [A] proti [B]
+</p>
+<p id="match_header_2">
+<b>Krogi:</b>
+</p>
+<p id="match_header_3">
+<b>Skupni Rezultat:</b> [A] proti [B]
+</p>
+
+<p id="tournament_1">
+Oh, mimogrede...
+</p>
+<p id="tournament_2">
+Morda imate dvome o tisti zgodbi Božičnega Premirja, ki govori o jarkih iz Prve Svetovne Vojne.
+Zagotovo je le bila izmišljena?
+</p>
+<p id="tournament_3">
+Ja, premirje je bilo dramatično, ampak ni bilo <i>ne unikatno ali nenavadno.</i>.
+</p>
+<p id="tournament_4">
+Ni se <i>vsak</i> jarek pridružil premirju, ampak je vseeno bilo zelo pogost dogodek.
+Veliko osprednjih linij si je izmislilo to idejo samostojno, in spet: <i>čeprav</i> so dobili stroge ukaze naj tega ne storijo.
+</p>
+<p id="tournament_5">
+Še celo <i>pred</i> Božičem, so osprednje linije <i>že</i>
+sklenile neuradno, skrivno premirje.
+</p>
+<p id="tournament_6">
+Temu so rekli: <b>sistem "živi in pusti živeti".</b>
+V bistvu, ti mene ne ustreliš, jaz tebe ne ustrelim. In to je delovalo v mnogih krajih!
+</p>
+<p id="tournament_7">
+Morda ste še stalno v dvomih. Večina vojakov ne naredijo mira spontano s sovražnikom.
+Kaj je sploh tako posebnega o vojni v jarkih? 
+</p>
+<p id="tournament_8">
+No, tukaj je stvar, ki je unikatna tem jarkam:
+za razliko od vsakega drugega tipa vojne,
+tukaj se morate bojevati proti istimi <i>specifičnimi vojaki</i> vsaki dan.
+</p>
+<p id="tournament_9">
+<b>Ponavljajoča igra je.</b> In to naredi <i>ogromno</i> razliko.
+</p>
+<p id="tournament_10">
+Dovolj o tem. In zmagovalec je...
+</p>
+
+<p id="the_winner_is">
+(bobnanje prosim...) &rarr;
+</p>
+
+<p id="tournament_winner_1">
+<b class="tft">IMITATOR!</b>
+</p>
+<p id="tournament_winner_2_yay">
+Čestitamo, stavili ste na pravega konja.
+</p>
+<p id="tournament_winner_2_nay">
+(Moje sožalje vaši neuspešni stavi, [CHAR].)
+</p>
+<p id="tournament_winner_3">
+<span class="tft">Imitator</span> ima več imen.
+Zlato Pravilo, povratna nesebičnost, zob za zob, ali... <i>živi in pusti živeti.</b>
+Zato se je lahko ustvaril "mir" v jarkih Prve Svetovne Vojne:
+Ko ste prisiljeni igrati isto igro s
+istimi <i>specifičnimi ljudmi</i> (ne samo istimi navadnimi "sovražniki") še enkrat in še enkrat --
+<span class="tft">Imitator</span> ne zmaga samo bitke, ampak celotno vojno.
+<br><br>
+Ampak če se stvari veliko spremenijo, ko igramo isto igro več krogov, kaj bi se zgodilo, če bi igrali...
+</p>
+<p id="tournament_teaser">
+...več <i>turnirjev?</i> &rarr;
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - EVOLUTION! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="evolution_intro">
+Zdaj pa pustimo, da se naša populacija igralcev <i>razvije čez čas</i>. To je tro-koračni ples:
+</p>
+<p id="evolution_intro_1">
+<b>1. ZAIGRAJ TURNIR</b><br>
+Naj zaigrajo sami med sabo in jim preštejmo rezultate.
+</p>
+<p id="evolution_intro_2">
+<b>2. ODSTRNANI PORAŽENCE</b><br>
+Znebi se 5 najslabših igralcev. (Če je kjerkoli neizenačeno, se naj naključno izbere med njimi)
+</p>
+<p id="evolution_intro_3">
+<b>3. PODVOJI ZMAGOVALCE</b><br>
+Podvoji 5 najboljših igralcev.(Če je kjerkoli neizenačeno, se naj naključno izbere med njimi)
+</p>																									<!--<br><br>To prevent clutter!-->
+<p id="evolution_intro_footer">
+...in PONOVITE kolikokrat si želite.
+Dodatek: ne rabite čakati, da ljudi dobesedno umrejo &amp; in se razmnožijo, da se lahko kultura razvije --
+vse, kar je potrebno je, da "neuspešni" odnosi izginejo in se "uspešni" odnosi ponovijo.
+Zdaj pa...
+</p>
+<p id="evolution_intro_button">
+...poglejmo, kako to deluje. &rarr;
+</p>
+
+<p id="evo_1">
+Recimo, da začnemo s sledečo populacijo igralcev:
+<span class="all_c">15 Večnih Sodelovalcev</span>,
+<span class="all_d">5 Večnih Goljufov</span>, in
+<span class="tft">5 Imitatorjev</span>.
+(Ignorirali bomo <span class="grudge">Zamerljivca</span> &amp; <span class="prober">Detektiva</span> za zdaj)
+<br><br>
+Zaplesali bomo turnir-odstrani-podvoji ples približno deset krat.
+Stavimo še enkrat! Kdo mislite, da bo zmagal <i>prvi</i> turnir?
+<b>STAVITE, ŠE ENKRAT:</b>
+</p>
+
+<p id="evo_2_all_c">
+Smiselna izbira, truenutno je več <span class="all_c">Večnih Sodelovalcev</span> kot pa vseh drugih...
+</p>
+<p id="evo_2_all_d">
+Smiselna izbira, <span class="all_d">Večen Goljuf</span> ima veliko <span class="all_c">Večnih Sodelovalcev</span> za izkoristit...
+</p>
+<p id="evo_2_tft">
+Smiselna izbira, <span class="tft">Imitator</span> je zmagal prejšnji turnir, zakaj ga ne bi še enkrat?...
+</p>
+<p id="evo_2">
+Poglejmo, če ste pravilno izbrali:
+</p>
+
+<p id="label_play_tournament">
+1) zaigraj turnir
+</p>
+<p id="label_eliminate_bottom_5">
+2) odstrani najslabših 5
+</p>
+<p id="label_reproduce_top_5">
+3) razmnoži 5 najboljših
+</p>
+
+<p id="evo_3_all_c">
+Na žalost so <span class="all_d">Večni Goljufi</span> požrli vse
+<span class="all_c">Večne Sodelovalce</span>, in so se razmnožili za 5.
+</p>
+<p id="evo_3_all_d">
+Na žalost ste naredili pravilno izbiro! <span class="all_d">Večni Goljufi</span> so tokrat zmagali, 
+in so povečali svoja števila za 5.
+</p>
+<p id="evo_3_tft">
+Na žalost <span class="tft">Imitator</span> ni zmagal – ampak vsaj ni bil tako slab
+kot <span class="all_c">Večen Sodelovalec</span>. Pojedli so jih <span class="all_d">Večni Goljufi</span>,
+od katerih so se števila povečala za 5.
+</p>
+<p id="evo_3">
+Ampak poskusimo še več krogov tega...
+</p>
+
+<p id="evo_4">
+Število <span class="all_d">Večnih Goljufov</span> še vedno narašča
+od izkoriščevanja <span class="all_c">Večnih Sodelovalcev</span>...
+</p>
+
+<p id="evo_5">
+In zdaj so vsi <span class="all_c">Večni Sodelovalci</span> izginili.
+Ampak, čakajte...
+</p>
+
+<p id="evo_6">
+Res je: <span class="all_d">Večni Goljufi</span> so postali žrtev svojega uspeha!
+Izkoristili so naivne <span class="all_c">Večne Sodelovalce</span>,
+ampak ko jih je zmanjkalo so se morali soočati s <span class="tft">Imitatorji</span>:
+ki <i>so</i> prijazni, ampak niso naivni.
+</p>
+
+<p id="evo_7">
+Ker samo ponovijo poteze igralcev, se
+<span class="tft">Imitatorji</span> lahko lepo igrajo med sabo,
+medtem ko se <span class="all_d">Večni Goljufi</span> sami sebe goljufajo!
+Ne samo to, ampak to tudi pomeni, da lahko <span class="tft">Imitatorji</span>
+vrnejo nesramnost, ki so jo
+dajali <span class="all_d">Večni Goljufi</span>.
+</p>
+
+<p id="evo_8">
+In ravno zaradi tega...
+</p>
+
+<p id="evo_9">
+...se <span class="tft">Imitator</span> podeduje po vsem svetu.
+</p>
+<p id="evo_9_all_c">
+Zdaj, čeprav ste se zmotili pri stavi -- prijazni-ampak-naivni <span class="all_c">Večni Sodelovalci</span>
+so bili ogroženi že pri začetku -- in na koncu se je <i>pameten</i> način prijaznosti razvil,
+ki je uničil <span class="all_d">Večne Goljufe</span>.
+</p>
+<p id="evo_9_all_d"> 
+Zdaj, kratkoročno ste imeli prav - <span class="all_d">Večni Goljufi</span> so zmagali prvih par krogov,
+Ampak na koncu je njihovo izkoriščanje bil njihov padec.
+</p>
+<p id="evo_9_tft">
+Zdaj, dolgoročno ste imeli prav - <span class="tft">Imitatorji</span> so zmagali!
+<span class="all_d">Večni Goljufi so </span>kratkoročno zmagovali,
+ampak njihovo izkoriščanje je bil njihov padec.
+</p>
+<p id="evo_9_end">
+To me spominja na en narek:
+<br><br>
+<i>"Ne kaznujejo nas naši grehi, ampak nas kaznuje, da jih imamo."</i><br>
+~ Elbert Hubbard
+</p>
+<p id="evo_9_btn">
+(in če smo že pri tem...)
+</p>
+
+<p id="evo_10">
+(...ta rezultat bi bil podoben če bi dali
+<span class="grudge">Zamerljivca</span> &amp; <span class="prober">Detektiva</span> nazaj noter:)
+</p>
+
+<p id="evo_autoplay">
+začni proces evolucije!
+</p>
+<p id="evo_autoplay_stop">
+ustavi proces evolucije
+</p>
+
+<p id="evo_10_followup">
+(Dodatek: včasih ostane par <span class="grudge">Zamerljivcev</span>,
+ker ko so vsi igralci ostranjeni razen 
+<span class="grudge">Zamerljivci</span> &amp; <span class="tft">Imitatorji</span>, se oba izenačita.)
+<br><br>
+Izgleda, da sama matematika igralne teorije nam nekaj pove:
+da <span class="tft">Imitatorjeva</span> filozofija,
+"Stori to, kar hočeš, da drugi storijo tebi", morda ni samo 
+<i>moralna</i> resnica, ampak tudi celo <i>matematična</i> resnica.
+Ampak...
+</p>
+<p id="evo_10_btn">
+...v tem je težava: &rarr;
+</p>
+
+<p id="evo_11">
+Poglej okrog sebe. Svet je poln nesramnih ljudi.
+<br><br>
+Če je strategija <span class="tft">Imitatorja</span> v tej ponovljivi igri zaupanja tako močna --
+da so celo vojaki v Prvi Svetovni Vojni samostojno "razvili" podobno strategijo s imenom "živi in pusti živeti" --
+zakaj je potem toliko nezaupljivih, nezaupnih ljudi? 
+Kaj povzroča našo epidemijo nezaupanja?
+<br><br>
+Namig temu je že v samem stavku. "V <i>tej</i> ponovljivi igri zaupanja."
+Do zdaj smo se samo pogovarjali o spremembah igralcev:
+kaj pa <i>sprememba v igri?</i>
+Kako bi lahko prišlo do...
+</p>
+<p id="evo_11_btn">
+...evolucije <i>nezaupanja?</i>
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - DISTRUST - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="distrust_1">
+Preden vse gre do vraga, začnimo z nekaj bolj prijetnim!
+Imamo svet, ki je poln samih <span class="all_c">Večnih Sodelovalcev</span>,
+razen en <span class="all_d">Večni Goljuf</span> in en <span class="tft">Imitator</span>.
+<br><br>
+Uporabite gumbe na desni, da <b>ZAČNETE</b> simulacijo,
+grete skozi njo <b>korak za korak</b>, ali jo <b>ponastavite</b>. &rarr;
+</p>
+
+<p id="distrust_2">Kot že veste,
+Kot že veste, <span class="tft">Imitator</span> zmaga čez čas,
+pod našimi trenutnimi pravili!
+<br><br>
+Ampak to je pod našimi <i>trenutnimi</i> pravili, ki pravijo, da
+igralci morajo igrati med sabo za <i>10</i> krogov na eno turnejo.
+Ali lahko <span class="tft">Imitator</span> še stalno zmaga pri 7 krogah? 5 krogov? 3? 2? 1?
+<br><br>
+<b>Spremenite število rund</b> s spodnjim drsnikom,
+potem <b>ZAČNITE</b> simulacijo, ter poglejte, kaj se zgodi.
+Lahko eksperimentirate kolikor želite!
+</p>
+
+<p id="distrust_2_end">
+ko boste končali z igranjem, kliknite:
+</p>
+
+<p id="distrust_3">
+Kot vidite, če ne zaigrate dovolj krogov, (5 ali manj)
+<span class="all_d">Večni GOLJUF</span> z lahkoto zmaga.
+<br><br>
+Leta 1985, ko so vprašali Američane, koliko prijateljev imajo,
+je bil najbolj pogosti odgovor "tri". Leta 2004 je bil najbolj pogosti odgovor <i>"nič"</i>.
+Trenutno imamo manj prijateljev ne glede razreda, rase ali politike, ampak
+zato, ker imamo manj prijateljev -- <i>pika.</i>
+In kot ste zdaj videli,
+<b>manj "ponovljivega komuniciranja" imamo, bolj se bo širilo nezaupanje.</b>
+<br><br>
+(ne, veliki mediji ne štejejo:
+to mora biti <i>dvo-smerno</i> komuniciranje med <i>specifičnimi osebami</i>.)
+</p>
+																					<!--<br><br><br><br>Too much text, nudging button down to not overlap!-->
+<p id="distrust_3_btn">
+postane še slabše... &rarr;
+</p>
+
+<p id="distrust_4">
+Obstaja <i>še en</i> način za širjenje nezaupanja.
+Tukaj so "izplačila" za igro zaupanja:
+</p>
+<p id="distrust_4_2">
+S navadnimi izplačili, <span class="tft">Imitator</span> zmaga.
+Ampak poskusi <b>spremeniti nagrado za "Obojno Sodelovanje" iz +2 na +1</b>,
+nato klikni <b>ZAČNI</b>.
+Čeprav je +1 <i>več</i> kot pa kazen za obojno goljufanje (0)...
+kaj se bi zgodilo?
+</p>
+<p id="distrust_4_note">
+Lahko se igrate s različnimi izplačili po želji!
+ko boste končali, kliknite:
+</p>
+<p id="distrust_4_note_2">
+(simuliram: 10 krogov na tekmo)
+</p>
+
+<p id="distrust_5">
+Zgodi se ista stvar:
+s nižjo nagrado za dvojno sodelovanje, lahko zelo uspešno zmaga <span class="all_d">Večni Goljuf</span>. 
+Igralna teorija ima dve veliki ideji o tem:
+<br><br>
+<b>"Igra s obojno izgubo".</b> To je na žalost pogosto mišljenje ljudi, kjer dobiček za "nas"
+<i>more</i> biti izguba za "njih", in obratno.
+<br><br>
+<b>"Igra brez obojne izgube".</b> To je takrat, ko se ljudje potrudijo,
+da najdejo najboljšo rešitev! (ali da se vsaj izognejo izgube)
+Brez "igre brez obojne izgube", se <i>zaupanje ne razvije.</i>
+<br><br>
+Ko se že pogovarjamo o tem
+si poglejmo našo tretjo &amp; zadnjo oviro evolucije zaupanja...
+</p>																		<!--<br><br><br>Too much text, nudging button down to not overlap!-->
+<p id="distrust_5_btn">
+<s>Napkae</s> Napake. &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - NOISE! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="noise_1">
+Čeprav je <span class="tft">Imitator</span> zelo dober, ima ogromno, usodno šibkost, ki še je nisem omenil.
+Da razumemo težavo, recimo, da igrata dva <span class="tft">Imitatorja</span> sama proti sebi:
+</p>
+<p id="noise_1_end">
+Ker sta "prijazna" igralca, njuna prva poteza bo:
+</p>
+
+<p id="noise_2">
+In kot ponavadi bi si vedno med sabo pomagala in bi z veseljem plesala do konca koncov.
+</p>
+<p id="noise_2_end">
+Ampak kaj pa, če med izmenjavi vljudnosti se zgodi...
+</p>
+
+<p id="noise_3">
+<b>OH NE</b>
+<br>
+Napaka, nesporazum, nerazložiev -- nezgode se dogajajo ves čas v pravem življenju.
+</p>
+<p id="noise_3_end">
+Ampak če druga oseba <i>misli</i>, da to ni bila napaka...
+</p>
+
+<p id="noise_4">
+<b>OH NE KRAT DVA</b>
+<br>
+Ta drugi igralec, ki je <span class="tft">Imitator</span>, se je <i>moral</i> maščevati...
+</p>
+<p id="noise_4_end">
+In ti, ker si tudi <span class="tft">Imitator</span>, boš še se <i>ti</i> maščeval...
+</p>
+
+<p id="noise_5">
+In tako kot Hatfieldi in McCoyji,
+ta dva <span class="tft">Imitatorja</span> bosta padla v neskončen cikel maščevanja...
+ki se je začel zaradi ene same napake dolgo nazaj.
+</p>
+<p id="noise_5_end">
+Tragično. Ampak obstajajo kateri <i>drugi</i> igralci, ki lahko...
+</p>
+<p id="noise_5_btn">
+...odpustijo napake? &rarr;
+</p>
+
+<p id="noise_characters">
+Spoznajmo par novih obrazov! (oziroma nove kape)
+</p>
+
+<p id="character_tf2t">
+<b>Imitatorček:</b><br>
+Zdravo! Jaz sem kot <span class="tft">Imitaor</span>,
+razen da Goljufam samo, če ti Goljufaš dvakrat zapored.
+Konec koncev, prvo Goljufanje je lahko bila le napaka!
+</p>
+
+<p id="character_pavlov">
+<b>TRAPEC:</b><br>
+zdravo jaz začnem s sodelovanjem.
+če sodeluješ nazaj, naredim <i>isto stvar</i> kot prejšnja poteza, četudi je bila napaka.
+če goljufaš nazaj, naredim <i>obratno stvar</i> kot prejšnja poteza, četudi je bila napaka.
+</p>
+
+<p id="character_random">
+<b>NAKLJUČNIK:</b><br>
+<i>Pica sendvič! Tipke luči zeleno! lol kak sem naključen</i><br>
+(Samo Goljufa ali Sodeluje naključno s 50/50 možnost)
+</p>
+
+<p id="noise_characters_end">
+Poglejmo zdaj, kako se bodo tile odrezali, ko bodo...
+</p>
+<p id="noise_characters_btn">
+...zaigrali turnir &rarr;
+</p>
+
+<p id="noise_evo_1">
+Začnimo s desetimi
+<span class="all_c">Večnimi Sodelovalci</span>,
+proti našemu prejšnjemu zmagovalcu, poštenim <span class="tft">Imitatorjem</span>,
+in našimi tremi novimi osebami:
+odpuščajočim <span class="tf2t">Imitatorčkom</span>,
+bednim <span class="pavlov">Trapcem</span>, in
+butastim <span class="random">Naključnikom</span>.
+<br><br>
+V vsakem krogu v enem turnirju bodo igralci imeli majno možnost, da storijo napako. (recimo 5%).
+Kdo mislite, da bo zmagal?
+<b>Dobro premislite in STAVITE:</b>
+</p>
+
+<p id="noise_evo_2">
+Ok, stavili ste, da bo [CHAR] zmagal. Poglejmo, če bo to res!
+Uporabite kontrole na levi da <b>ZAČNETE</b> simulacijo v hitrem načinu,
+ali pojdite skozi <b>korak-za-korakom</b>.
+</p>
+<p id="noise_evo_2_2_correct">
+Imeli ste prav -- 
+</p>
+<p id="noise_evo_2_2_incorrect">
+Blizu ste bili, ampak niste zadeli -- 
+</p>
+<p id="noise_evo_2_2">
+<span class="pavlov">Trapec</span> je zmagal!
+<span class="pavlov">Trapec</span> je zmagal zato, kjer je zmožen
+izkoriščati <span class="all_c">Večne Sodelovalce</span>. Oba začneta sodelovati,
+ampak če <span class="pavlov">Trapec</span> naredi napako in goljufa, in
+ker <span class="all_c">Večni Sodelovalec</span> se nikoli maščuje,
+<i>bo kar naprej goljufal</i>.
+</p>
+<p id="noise_evo_2_2_btn">
+Zdaj pa poskusimo...
+</p>
+
+<p id="noise_evo_3">
+...isto stvar kot prej, razen da ne bomo imeli pol-<span class="all_c">Večnih Sodelovalcev</span>,
+ampak pol-<span class="all_d">Večnih Goljufov</span>. Zdaj je veliko <i>manj</i> odpuščajoče,
+<i>bolj</i> sovražno okolje.
+<br><br>
+Kdo mislite, da bo zdaj zmagal? <b>Premislite in STAVITE:</b>
+</p>
+
+<p id="noise_evo_4">
+Stavili ste, da bo [CHAR] zmagal. Gremo spet skozi simulacijo...
+</p>
+<p id="noise_evo_4_2_correct">
+Točno ste zadeli -- 
+</p>
+<p id="noise_evo_4_2_incorrect">
+Dobro ste ugibali, ampak je nekdo drug prevzel nagrado -- 
+</p>
+<p id="noise_evo_4_2">
+<span class="tf2t">Imitatorček</span> je tokrat zmagal!
+To je presenetljivo, da v <i>še bolj nesramni</i> začetni populaciji,
+<span class="tf2t">Imitatorček</span>,
+ki je <i>bolj odpuščajoča</i> verzija <span class="tft">Imitatorja</span>,
+bila najbolj uspešna! (dodatek: <span class="tf2t">Imitatorček</span> je tako odpuščajoč,
+da niti ne <i>popolnoma</i> uniči <span class="tft">Imitatorje</span>. z njimi deli prostor)
+<br><br>
+V tem primeru, malo "nesporazumevanja" (5% možnosti napake v vsakem krogu) lahko pride
+do več <i>odpuščanja</i>. Ampak, ali je to res na <i>vseh</i> nivojih...
+</p>
+<p id="noise_evo_4_2_btn">
+...nesporazumevanja?
+</p>
+
+<p id="noise_evo_5">
+<b>Uporabite spodnji drsnik, da spremenite količino "nesporazumevanja", nato pa kliknite ZAČNI.</b>
+Pri 5%, <span class="tf2t">Imitatorček</span> zmaga.
+Kaj se zgodi pri 0%? Ali 20%? Ali 50%? (Gre samo do 50%,
+ker pri tisti točki, <i>vsaka</i> poteza je čisto naključna)
+</p>
+<p id="noise_evo_5_continue">
+Ko boste nehali s igranjem, kliknite:
+</p>
+
+<p id="noise_evo_6">
+Rezultati pridejo ven takšni:<br>
+<b>Pri 0%</b> zmaga pošten <span class="tft">Imitator</span>!
+<b>Pri 1% do 9%,</b> zmaga odpuščajoč <span class="tf2t">Imitatorček</span>!
+<b>Pri 10% do 49%:</b> zmaga nepošten, neodpuščajoč <span class="all_d">Večni Goljuf</span>.
+<b>Pri 50%</b> <i>nihče nikoli zmaga.</i>
+<br><br>
+Zato je "nesporazumevanje" tako zanimiva ovira zaupanju:
+s <i>majhno</i> količino prideš do odpuščanja,
+ampak <i>preveč</i> nesporazumevanja sledi do ogromno nezaupanja!
+Mislim, da naša moderna medijska tehnologija,
+čeprav je nam pomagala razširiti komunikacijo...
+je razširila <i>nesporazumevanje</i> veliko bolj.
+<br><br>
+Za konec lahko eksperimentiramo s <i>vsemi</i> številkami, gumbi in drsniki.
+Igrajmo se...
+</p>
+<p id="noise_evo_6_btn">
+...v Peskovnem Načinu!
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - SANDBOX! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="sandbox_population">
+Začni s takšno porazdelitev igralcev:
+</p>
+
+<p id="sandbox_payoffs">
+Izplačila ena-na-ena igre so:
+</p>
+<p id="sandbox_reset_payoffs">
+ponastavi
+</p>
+
+<!--
+When translating the following, keep the "[N]", with square brackets,
+as a placeholder for the number. Some of these need double-translations,
+one for the plural version, one for the singular version.
+-->
+
+<p id="sandbox_rules_1">			
+Zaigraj [N] krogov na tekmo:
+</p>
+<p id="sandbox_rules_1_single">
+Zaigraj [N] krog na tekmo:
+</p>
+
+<p id="sandbox_rules_2">
+Po vsakem turnirju odstrani [N] spodnjih igralcev &amp; razmnoži [N] najvišjih igralcev:							
+</p>
+<p id="sandbox_rules_2_single">
+Po vsakem turnirju odstrani [N] spodnjega igralca &amp; razmnoži [N] najvišjega igralca:
+</p>
+
+<p id="sandbox_rules_3">
+Med vsakim krogom je [N]% možnost, da igralec naredi napako:
+</p>
+
+<p id="sandbox_end">
+<b>DODATEK: Peskovni Način je popolnoma neobvezen.</b>
+Lahko ga preskočite ali se igrate z njim! Ko boste končali, lahko ponovimo to...
+</p>
+<p id="sandbox_end_btn">
+kar smo se danes naučili! &rarr;
+</p>
+
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - CONCLUSION! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="conclusion_0">
+Igralna teorija nam je pokazala tri stvari, ki jih potrebujemo za razvoj zaupanja:
+</p>
+<p id="conclusion_1_a">
+1. PONOVLJIVA INTERAKCIJA
+</p>
+<p id="conclusion_1_a2">
+Zaupanje pomaga katerikoli zvezi,
+ampak morate imeti znanje o možni prihodni ponovljivi interakciji <i>preden</i> se zaupanje razvije.
+</p>
+<p id="conclusion_2_a">
+2. MOŽNE OBOJNE ZMAGE
+</p>
+<p id="conclusion_2_a2">
+Morate igrati igro, ki je brez obojne izgube --
+igra, kjer je vsaj možno, da <i>oba</i> igralca ostaneta na boljšem -- obojne zmage.
+</p>
+<p id="conclusion_3_a">
+3. NIZKI NESPORAZUM
+</p>
+<p id="conclusion_3_a2">
+Če je nivo nesporazuma <i>previsok</i>, se zaupanje poruši.
+Ampak ko je le malo nesporazuma, je dobro, da ste <i>bolj</i> odpuščajoči.
+</p>
+<p id="conclusion_4">
+Res je, da zaupanje v pravem svetu prejme veliko več vplivov kot pa to.
+Ostaja tudi ugled, pogodbe, kultura, bla bla bla.
+In naj ne pozabimo...
+</p>
+<p id="conclusion_btn">
+...<i>največjega</i> nauka. &rarr;
+</p>
+
+<p id="outro_1">
+Če je tukaj ena velika stvar, od katere se lahko naučimo<br>
+od <i>vse</i> te igralne teorije, je to:
+<br><br>
+<b>Pravila igre definirajo, kaj igralci storijo.</b><br>
+Naša težava danes niso samo ljudi, ki izgubljajo zaupanje,<br>
+ampak da našo <i>okolje</i> deja proti razvoju zaupanja.
+<br><br>
+To se morda sliši cinično ali naivno -- da smo "samo" izdelek našega okolja --
+ampak naša igralna teorija nas spomni, da mi <i>smo</i> našo okolje.
+<b>Kratkoročno, igra definira naše igralce. Ampak dolgoročno,
+mi igralci smo tisti, ki definiramo igro.</b>
+<br><br>
+Zato storite, kar lahko <i>vi</i> storite, da lahko ustvarimo stanje, ki je potrebno za razvoj zaupanja.
+Ustvarite stike. Najdite obojne zmage. Razločno komunicirajte.
+Mogoče po tem se lahko nehamo streljati, se spravimo iz svojih jarkov,
+prehodimo Nikogaršnjo Zemljo skupaj...
+</p>
+																											<!--<br>Too much text, nudging button down!-->
+<p id="outro_1_btn">
+...in se naučimo...
+</p>
+
+<p id="outro_2">
+...živet in pustiti živet.
+</p>
+
+<p id="outro_2_credits">
+"A Christmas Truce between Opposing Trenches"
+Ilustriral AC Michael.
+Objavljeno v <i>"The Illustrated London News"</i>, Januar 9, 1915.
+</p>
+
+<p id="outro_2_btn">
+&lt;3
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - CREDITS! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="credits">
+<span class="credits">
+
+ustvaril:<br>
+<span class="big">NICKY CASE</span><br>
+<a href="http://ncase.me/" target="_blank">igrajte moje druge igre</a>
+•
+<a href="https://twitter.com/ncasenmare" target="_blank">sledite mi na Twitterju</a>
+<br>
+<a href="https://github.com/ncase/trust/#play-it-here-httpncasemetrust" target="_blank">prenesite si glasbo &amp; izvorno kodo</a>
+
+<span class="divider"></span>
+
+temeljeno na "robert axelrod"-ovi 1984 knjigi,<br>
+<span class="big">"EVOLUCIJA SODELOVANJA"</span><br>
+<a href="notes" target="_blank">preberite moje opombe o tej igri</a>
+
+<span class="divider"></span>
+
+veliko ljubezni in zahval mojimi<br>
+<span class="big">PATREON PODPORNIKI</span><br>
+<a href="peeps" target="_blank">poglejte moje risbe njih</a>
+•
+<a href="https://www.patreon.com/ncase" target="_blank">mečite kovance v mene na Pateron-u &lt;3</a>
+
+<span class="divider"></span>
+
+p.s: ali hočete več učenja preko igranja?<br>
+poglejte si 
+<a href="http://explorabl.es/" target="_blank">raziskovne razlage</a>!
+
+</span>
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - THE PLAYERS - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_tft">Imitator</p>
+<p id="label_short_tft">
+imitator
+</p>
+<p id="icon_tft">
+<span class="tft">
+	<span class="icon"></span>
+	<span class="icon_label">Imitator</span>
+</span>
+</p>
+
+<p id="label_all_d">Goljuf</p>
+<p id="label_short_all_d">
+goljuf
+</p>
+<p id="icon_all_d">
+<span class="all_d">
+	<span class="icon"></span>
+	<span class="icon_label">Goljuf</span>
+</span>
+</p>
+
+<p id="label_all_c">Sodelovalec</p>
+<p id="label_short_all_c">
+sodelovalec
+</p>
+<p id="icon_all_c">
+<span class="all_c">
+	<span class="icon"></span>
+	<span class="icon_label">Sodelovalec</span>
+</span>
+</p>
+
+<p id="label_grudge">Grudger</p>
+<p id="label_short_grudge">
+grudger
+</p>
+<p id="icon_grudge">
+<span class="grudge">
+	<span class="icon"></span>
+	<span class="icon_label">Zamerljivec</span>
+</span>
+</p>
+
+<p id="label_prober">Detektiv</p>
+<p id="label_short_prober">
+detektiv
+</p>
+<p id="icon_prober">
+<span class="prober">
+	<span class="icon"></span>
+	<span class="icon_label">Detektiv</span>
+</span>
+</p>
+
+<p id="label_tf2t">Imitatorček</p>
+<p id="label_short_tf2t">
+imitatorček
+</p>
+<p id="icon_tf2t">
+<span class="tf2t">
+	<span class="icon"></span>
+	<span class="icon_label">Imitatorček</span>
+</span>
+</p>
+
+<p id="label_pavlov">Trapec</p>
+<p id="label_short_pavlov">
+trapec
+</p>
+<p id="icon_pavlov">
+<span class="pavlov">
+	<span class="icon"></span>
+	<span class="icon_label">Trapec</span>
+</span>
+</p>
+
+<p id="label_random">Naključnik</p>
+<p id="label_short_random">
+naključnik
+</p>
+<p id="icon_random">
+<span class="random">
+	<span class="icon"></span>
+	<span class="icon_label">Naključnik</span>
+</span>
+</p>
+
+<p id="forgot_whos_who">
+(ste pozabili kdo je kdo? postabite miško preko gumbov, da vidite opis vsake osebe!)
+</p>
+<p id="who_tft">
+Začne s Sodelovanjem. Nato samo ponovi to, kar ste VI storili prejšnji krog.
+</p>
+<p id="who_all_d">
+Vedno Goljufa.
+</p>
+<p id="who_all_c">
+Vedno Sodeluje.
+</p>
+<p id="who_grudge">
+Začne s Sodelovanjem in nadaljuje s tem dokler jih ne ogoljufate.
+Po tem bo za vedno Goljufal.
+</p>
+<p id="who_prober">
+Začne s: Sodelovanje, Sodelovanje, Goljufanje, Sodelovanje.
+Po tem, če se kdajkoli maščujete s Goljufanjem, bo igral kot Imitator.
+Drugače bo igral kot Večni Goljuf.
+</p>
+<p id="who_tf2t">
+Začne s Sodelovanjem.
+Maščuje se s Goljufanjem samo takrat, ko ga ogoljufate DVAKRAT zapored.
+</p>
+<p id="who_pavlov">
+Začne s Sodelovanjem.
+Nato, če ste prejšnji krog Sodelovali, bo ponovil svojo zadnjo potezo (četudi je bila napaka).
+Ampak če ste goljufali prejšnji krog, bo naredil obratno od svoje prejšnje poteze (četudi je bila napaka).
+</p>
+<p id="who_random">
+Naključno Sodeluje ali Goljufa s 50-50 možnost
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - SMALL LABELS! - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_cooperate">
+sodeluj
+</p>
+
+<p id="label_cheat">
+goljufaj
+</p>
+
+<p id="label_play">
+igraj
+</p>
+
+<p id="label_start">
+ZAČNI
+</p>
+
+<p id="label_stop">
+USTAVI
+</p>
+
+<p id="label_step">
+korak
+</p>
+
+<p id="label_reset">
+ponastavi
+</p>
+
+<p id="label_population">
+populacija
+</p>
+
+<p id="label_payoffs">
+izplačila
+</p>
+
+<p id="label_rules">
+drugo
+</p>
+
+<p id="label_next">
+naprej &rarr;
+</p>
+
+<p id="label_continue">
+nadaljuj
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - NAVIGATING CHAPTERS - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="chapter_intro">
+0. Uvod
+</p>
+<p id="chapter_oneoff">
+1. Ena Igra
+</p>
+<p id="chapter_iterated">
+2. Ponavljajoča Igra
+</p>
+<p id="chapter_tournament">
+3. En Turnir
+</p>
+<p id="chapter_evolution">
+4. Ponavljajoč Turnir
+</p>
+<p id="chapter_distrust">
+5. Evolucija Nezaupanja
+</p>
+<p id="chapter_noise">
+6. Npaake
+</p>
+<p id="chapter_sandbox">
+7. Peskovni Način
+</p>
+<p id="chapter_conclusion">
+8. Zaključek
+</p>
+<p id="chapter_credits">
+9. Krediti
+</p>
